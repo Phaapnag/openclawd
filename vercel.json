@@ -1,4 +1,6 @@
 {
+  "buildCommand": "pnpm build",
+  "outputDirectory": "packages/moltbot/dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index.js" }
   ]
