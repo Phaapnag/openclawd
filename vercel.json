@@ -1,5 +1,4 @@
 {
-  "outputDirectory": "packages/openclaw",
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index.js" }
   ]
