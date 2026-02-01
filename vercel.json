@@ -1,11 +1,5 @@
 {
-  "functions": {
-    "packages/openclaw/api/index.js": {
-          "runtime": "@vercel/node@latest"
-          }
-  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index.js" }
   ]
 }
- 
